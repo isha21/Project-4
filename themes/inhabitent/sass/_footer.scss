@@ -3,6 +3,11 @@
   background:black;
 }
 
-.site-footer{
-  $color:white;
+.footer-text-container a{
+  $color:#fff;
+  text-decoration: none;
+}
+
+.fa{
+  display:inline-block;
 }

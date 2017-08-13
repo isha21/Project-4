@@ -658,3 +658,9 @@ object {
 /* Front page */
 #colophon {
   background: black; }
+
+.footer-text-container a {
+  text-decoration: none; }
+
+.fa {
+  display: inline-block; }
