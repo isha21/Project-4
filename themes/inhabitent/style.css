@@ -659,5 +659,9 @@ object {
 #colophon {
   background: black; }
 
-footer-text-left {
+.footer-container {
+  color: #fff;
   text-decoration: none; }
+
+.site-footer a {
+  color: #fff; }

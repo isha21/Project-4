@@ -3,8 +3,11 @@
   background:black;
 }
 
-footer-text-left{
-  $color:#fff;
+.footer-container{
+  color:$color__background-body;
   text-decoration: none;
 }
 
+.site-footer a{
+ color:$color__background-body;
+}
