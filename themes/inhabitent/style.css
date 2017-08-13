@@ -659,8 +659,5 @@ object {
 #colophon {
   background: black; }
 
-.footer-text-container a {
+footer-text-left {
   text-decoration: none; }
-
-.fa {
-  display: inline-block; }
