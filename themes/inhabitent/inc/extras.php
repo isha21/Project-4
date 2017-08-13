@@ -40,7 +40,9 @@ function inhabitent_login_logo_url(){
 }
 add_filter('login_headerurl', 'inhabitent_login_logo_url');
 
-// need to correct this
-// function inhabitent_login_title(){
-// 	return 'inhabitent';
-// add_filter('login_headertitle', 'inhabitent_login_title');
+// remove editor links from sub-menu
+function inhabitent_remove_submenus() {
+remove_submenu_page( 'themes.php', 'theme-editor.php' );
+remove_submenu_page( 'plugins.php', 'plugin-editor.php' );
+}
+add_action( 'admin_menu', 'inhabitent_remove_submenus', 110 );
