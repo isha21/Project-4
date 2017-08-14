@@ -10,20 +10,20 @@
 <div id="primary"  class="content-area">
     <main id="main" class="site-main"  role="main">
 
-<article id="post"-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-heder custom-hero">
       <div class="container"
-        <>php the_title('h1 class="entry-title">', '</h1>'); ?>
+        <?php the_title('h1 class="entry-title">', '</h1>'); ?>
       </div>
     </header>
 
 <div class="container">
   <div class="enry-content">
       <h2>Our Story</h2>  
-      <?php echo CFS()->get( '	about_our_story' ); ?>
+      <?php echo CFS()->get( 'about_our_story' ); ?>
   
       <h2> Our Team </h2>
-      <?php echo CFS()->get( '	about_our_team' ); ?>
+      <?php echo CFS()->get( 'about_our_team' ); ?>
     </div>
    </iv>
   </article>
