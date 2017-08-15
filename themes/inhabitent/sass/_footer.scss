@@ -1,13 +1,21 @@
 
 #colophon{
 background-image: url('../../images/dark-wood.png');
-}
-
 .footer-container{
-  text-decoration: none;
-  color:$color__background-body;
+  margin:2.5rem;
+  flex-basis:25%;
+}
+  h3{
+    color:$color_footer-brand;
+    text-transform:uppercase;   
+}
+  
+  .footer-text-left{
+     color:$color__background-body;
+  }
+
+  a{
+ color:$color__background-body;
+  }
 }
 
-.site-footer a{
- color:$color__background-body;
-}
