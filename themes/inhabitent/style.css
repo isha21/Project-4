@@ -657,11 +657,11 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 #colophon {
-  background: black; }
+  background-image: url("../../images/dark-wood.png"); }
 
 .footer-container {
-  color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 .site-footer a {
   color: #fff; }
