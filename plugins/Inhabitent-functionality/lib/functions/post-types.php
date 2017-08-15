@@ -43,7 +43,7 @@
  		'description'           => 'Custom product post type',
  		'labels'                => $labels,
  		'supports'              => array( 'title', 'editor', 'author', 'thumbnail', 'revisions', ),
- 		'hierarchical'          => false,
+ 		'hierarchical'          => true,
  		'public'                => true,
  		'show_ui'               => true,
  		'show_in_menu'          => true,
@@ -54,7 +54,7 @@
  		'has_archive'           => true,		
  		'exclude_from_search'   => false,
  		'publicly_queryable'    => true,
- 		'capability_type'       => 'page',
+ 		'capability_type'       => 'post',
  	);
  	register_post_type( 'product', $args );
  
