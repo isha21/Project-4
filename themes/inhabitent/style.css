@@ -667,7 +667,7 @@ object {
   color: #fff; }
 
 h3 {
-  color: red;
+  color: #d99054;
   text-transform: uppercase; }
 
 .widget-area {
@@ -675,3 +675,10 @@ h3 {
   display: flex;
   margin-left: auto;
   margin-right: auto; }
+
+.menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  color: magenta; }

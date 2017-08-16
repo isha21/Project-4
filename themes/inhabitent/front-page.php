@@ -11,7 +11,6 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 
-<div class = "most-recent">
 		<?php 
 				$args = array ('post_type' => 'post', order => 'DESC', 'posts_per_page' => 3, 'orderby' => 'date');
 				$journal_posts = get_posts($args);
