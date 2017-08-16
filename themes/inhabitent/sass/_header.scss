@@ -9,8 +9,11 @@
   border-bottom: 1px solid grey;
 
     li{
-      margin-left:10px;    
+      margin-left:10px; 
     }
+      a{
+        color:$color_menu-links;
+      }
   }    
 
     
