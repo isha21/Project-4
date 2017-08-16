@@ -64,6 +64,7 @@ function inhabitent_dynamic_css() {
             linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
             url({$image}) no-repeat center bottom;
         background-size: cover, cover;
+        height:100vh;
     }";
     wp_add_inline_style( 'tent-style', $hero_css );
 }

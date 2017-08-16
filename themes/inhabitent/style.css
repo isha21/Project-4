@@ -662,13 +662,16 @@ object {
     margin: 2.5rem;
     -ms-flex-preferred-size: 25%;
         flex-basis: 25%; }
-  #colophon h3 {
-    color: #d99054;
-    text-transform: uppercase; }
-  #colophon .footer-text-left {
-    color: #fff; }
-  #colophon a {
-    color: #fff; }
 
-.page-template-about {
-  width: 100%; }
+.site-footer {
+  color: #fff; }
+
+h3 {
+  color: red;
+  text-transform: uppercase; }
+
+.widget-area {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }

@@ -19,7 +19,6 @@ get_header(); ?>
 		<?php endif; ?>
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-		<!-- TODO change to more meaningful tag -->
 	<h3><?php echo CFS()->get( 'price' ); ?></h3>
 
 		
