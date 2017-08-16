@@ -1,5 +1,16 @@
-.menu{
+.menu-menu-1-container{
   display: flex;
   justify-content:flex-end;
-  color:magenta;
-}
+  padding-left:1.5rem;
+  text-transform:uppercase;
+  font-size:1rem;
+  line-height:1.75rem;
+  padding:block-end;
+  border-bottom: 1px solid grey;
+
+    li{
+      margin-left:10px;    
+    }
+  }    
+
+    

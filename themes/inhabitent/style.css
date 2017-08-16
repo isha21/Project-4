@@ -676,9 +676,16 @@ h3 {
   margin-left: auto;
   margin-right: auto; }
 
-.menu {
+.menu-menu-1-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
       justify-content: flex-end;
-  color: magenta; }
+  padding-left: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding: block-end;
+  border-bottom: 1px solid grey; }
+  .menu-menu-1-container li {
+    margin-left: 10px; }
