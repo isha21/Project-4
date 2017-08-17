@@ -672,7 +672,9 @@ h3 {
 
 .widget-area {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: right;
+      justify-content: right; }
 
 .menu-menu-1-container {
   display: -ms-flexbox;
@@ -683,7 +685,6 @@ h3 {
   text-transform: uppercase;
   font-size: 1rem;
   line-height: 1.75rem;
-  padding: block-end;
   border-bottom: 1px solid #666; }
   .menu-menu-1-container li {
     margin-left: 10px; }
