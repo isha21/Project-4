@@ -16,6 +16,18 @@ get_header(); ?>
 				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
+				
+
+					$terms = get_terms( 'product-type' );
+					if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
+							echo '<ul class="product-types">';
+							foreach ( $terms as $term ) {
+									echo '<li><a href="' . get_term_link( $term ) . '">' . $term->name . '</a></li>';
+							}
+							echo '</ul>';
+					}
+				
+				
 				?>
 			</header><!-- .page-header -->
 
