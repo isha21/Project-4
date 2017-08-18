@@ -4,6 +4,8 @@ background-image: url('../../images/dark-wood.png');
 .footer-container{
   margin:2.5rem;
   flex-basis:25%;
+  display: flex;
+  justify-content: space-between;
   }
     h3{
       color:$color_footer-brand;

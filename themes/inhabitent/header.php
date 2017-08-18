@@ -31,13 +31,12 @@
 					<div class="nav-logo">
 							<img src="//localhost:3000/project4/wp-content/themes/inhabitent/images/inhabitent-logo-tent.svg"/>
 					</div>
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-						
+					<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>						 -->
+					<div class="main-nav">
+				  
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					
-					<span>
 					<?php get_search_form(); ?>
-				 </span>
+					</div>
 				</nav><!-- #site-navigation -->
 				<!-- </div> -->
 			</header><!-- #masthead -->
