@@ -35,9 +35,9 @@
 						
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					
-					<!-- <span>
+					<span>
 					<?php get_search_form(); ?>
-				 </span> -->
+				 </span>
 				</nav><!-- #site-navigation -->
 				<!-- </div> -->
 			</header><!-- #masthead -->

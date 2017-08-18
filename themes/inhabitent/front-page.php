@@ -11,16 +11,18 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
     <section class="hero-image">
+		<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-full.svg" alt="inhabitent-logo">
 		</section>	
 		
 		<?php
         $terms = get_terms( 'product-type' );
         if ( !empty( $terms ) && !is_wp_error ( $terms )) : 
-        ?>
+				?>
+				<h2 class="shop-stuff-header">Shop Stuff </h2>
         <div class="shop-items-container">
             <?php foreach( $terms as $term ) : ?>
-                <img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug . '.svg';  ?>">
                 <div class="category-item">
+								<img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug . '.svg';  ?>">
                     <p><?php echo $term->description; ?></p>
                     <a class="category-item-link" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> stuff</a>
                 </div>
@@ -48,7 +50,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 		
-		<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-full.svg" alt="inhabitent-logo">
+	
 	</div><!-- #primary -->
 
 
