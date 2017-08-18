@@ -29,7 +29,10 @@
 				<!-- <div class="menu"> -->
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<div class="nav-logo">
-							<img src="//localhost:3000/project4/wp-content/themes/inhabitent/images/inhabitent-logo-tent.svg"/>
+					<a href="<?php echo get_home_url('/'); ?>">
+					<img class="white-logo-tent" src="<?php echo get_stylesheet_directory_uri(); ?>/images/inhabitent-logo-tent.svg">
+
+					</a>
 					</div>
 					<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>						 -->
 					<div class="main-nav">

@@ -89,3 +89,8 @@ add_filter('pre_get_posts', 'inhabitent_limit_archive_posts');
  }
 
 add_filter( 'get_the_archive_title', 'inhabitent_archive_title' );
+
+function inhabitent_excerpt_length( $length ) {
+    return 50;
+}
+add_filter( 'excerpt_length', 'inhabitent_excerpt_length');

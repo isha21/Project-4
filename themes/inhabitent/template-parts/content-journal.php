@@ -22,7 +22,11 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_content(); ?>
+		<?php the_excerpt(); ?>
+
+	<button>
+	<a href="<?= get_the_permalink(); ?>">Read More</a
+	</button>
 		
 	</div><!-- .entry-content -->
 
