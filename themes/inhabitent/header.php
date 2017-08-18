@@ -26,15 +26,18 @@
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div><!-- .site-branding -->
 
-				<div class="menu">
+				<!-- <div class="menu"> -->
 				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<div class="nav-logo">
+							<img src="//localhost:3000/project4/wp-content/themes/inhabitent/images/inhabitent-logo-tent.svg"/>
+					</div>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				<span class="nav-search">
+				<!-- <span class="nav-search">
 					<?php get_search_form(); ?>
-				</span>		
+				</span>		 -->
 				</nav><!-- #site-navigation -->
-				</div>
+				<!-- </div> -->
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">

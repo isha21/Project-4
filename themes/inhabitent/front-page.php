@@ -25,11 +25,12 @@ get_header(); ?>
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
 				</div>
 
-			<?php endforeach; wp_reset_postdata(); ?>
-</div>
+					<?php endforeach; wp_reset_postdata(); ?>
+				</div>
 	
 
 		</main><!-- #main -->
+		
 		<img class="logo-circle" src=" <?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-full.svg" alt="inhabitent-logo">
 	</div><!-- #primary -->
 
