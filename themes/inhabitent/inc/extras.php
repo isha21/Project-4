@@ -78,13 +78,14 @@ function inhabitent_limit_archive_posts($query){
 }
 add_filter('pre_get_posts', 'inhabitent_limit_archive_posts');
 
-// this is 5th picture dan's way
-//  function inhabitent_archive_title($title){
-//     if (is_post_type_archive ('product') {
-//         $title = 'Shop Stuff';
-//     } elseif (is_tax('product-type')){
-//            $title = single_term_title('', false);
-// }
-//          return $title;
-//  }
 
+ function inhabitent_archive_title($title){
+    if (is_post_type_archive ( 'product' ) ){
+        $title = 'Shop Stuff';
+    } elseif (is_tax('product-type')){
+           $title = single_term_title('', false);
+}
+         return $title;
+ }
+
+add_filter( 'get_the_archive_title', 'inhabitent_archive_title' );

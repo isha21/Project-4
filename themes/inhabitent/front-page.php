@@ -10,6 +10,23 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+    <section class="hero-image">
+		</section>	
+		
+		<?php
+        $terms = get_terms( 'product-type' );
+        if ( !empty( $terms ) && !is_wp_error ( $terms )) : 
+        ?>
+        <div class="shop-items-container">
+            <?php foreach( $terms as $term ) : ?>
+                <img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug . '.svg';  ?>">
+                <div class="category-item">
+                    <p><?php echo $term->description; ?></p>
+                    <a class="category-item-link" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> stuff</a>
+                </div>
+            <?php endforeach; ?>
+        </div>
+        <?php endif;?>
 
 		<?php 
 				$args = array ('post_type' => 'post', order => 'DESC', 'posts_per_page' => 3, 'orderby' => 'date');
