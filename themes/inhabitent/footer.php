@@ -20,6 +20,9 @@
 								<p><span><i class="fa fa-twitter-square"     aria-hidden="true"></i></span></p>
 								<p><span><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
 							</div>
+							<div class="footer-logo">
+							<img src=" <?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-full.svg" alt="inhabitent-logo">
+ 	           </div>
 
 					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
 				</div><!-- .site-info -->
