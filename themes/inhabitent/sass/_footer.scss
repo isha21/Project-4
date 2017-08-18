@@ -5,17 +5,18 @@ background-image: url('../../images/dark-wood.png');
   margin:2.5rem;
   flex-basis:25%;
   }
+    h3{
+      color:$color_footer-brand;
+      text-transform: uppercase;
+    }
+    
 }
 
 
   
-  .site-footer{
-     color:$color__background-body;
+ 
+    
         
-    }
+    
 
   
-h3 {
-    color:$color_footer-brand;
-    text-transform: uppercase;
-  }

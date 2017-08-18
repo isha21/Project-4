@@ -665,13 +665,9 @@ object {
     margin: 2.5rem;
     -ms-flex-preferred-size: 25%;
         flex-basis: 25%; }
-
-.site-footer {
-  color: #fff; }
-
-h3 {
-  color: #d99054;
-  text-transform: uppercase; }
+  #colophon h3 {
+    color: #d99054;
+    text-transform: uppercase; }
 
 .site-content {
   display: -ms-flexbox;

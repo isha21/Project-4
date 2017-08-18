@@ -32,10 +32,12 @@
 							<img src="//localhost:3000/project4/wp-content/themes/inhabitent/images/inhabitent-logo-tent.svg"/>
 					</div>
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
+						
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				<!-- <span class="nav-search">
+					
+					<!-- <span>
 					<?php get_search_form(); ?>
-				</span>		 -->
+				 </span> -->
 				</nav><!-- #site-navigation -->
 				<!-- </div> -->
 			</header><!-- #masthead -->
