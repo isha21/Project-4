@@ -676,7 +676,7 @@ h3 {
   -ms-flex-pack: right;
       justify-content: right; }
 
-.menu-menu-1-container {
+.main-navigation {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
@@ -686,7 +686,7 @@ h3 {
   font-size: 1rem;
   line-height: 1.75rem;
   border-bottom: 1px solid #666; }
-  .menu-menu-1-container li {
+  .main-navigation li {
     margin-left: 10px; }
-  .menu-menu-1-container a {
+  .main-navigation a {
     color: #248A83; }

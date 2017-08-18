@@ -32,10 +32,9 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				<span class="nav-search">
 					<?php get_search_form(); ?>
-				</span>
-				</div>
+				</span>		
 				</nav><!-- #site-navigation -->
-			
+				</div>
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
