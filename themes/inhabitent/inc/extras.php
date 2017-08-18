@@ -69,3 +69,22 @@ function inhabitent_dynamic_css() {
     wp_add_inline_style( 'tent-style', $hero_css );
 }
 add_action( 'wp_enqueue_scripts', 'inhabitent_dynamic_css' );
+
+function inhabitent_limit_archive_posts($query){
+    if ($query->is_archive) {
+        $query->set('posts_per_page', 20);
+    }
+    return $query;
+}
+add_filter('pre_get_posts', 'inhabitent_limit_archive_posts');
+
+// this is 5th picture dan's way
+//  function inhabitent_archive_title($title){
+//     if (is_post_type_archive ('product') {
+//         $title = 'Shop Stuff';
+//     } elseif (is_tax('product-type')){
+//            $title = single_term_title('', false);
+// }
+//          return $title;
+//  }
+
