@@ -665,7 +665,8 @@ object {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  width: 100%; }
 
 .shop-items-container {
   display: -ms-grid;
@@ -676,7 +677,10 @@ object {
   width: 1120px; }
 
 .shop-stuff-header {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 3.75rem; }
 
 #colophon {
   background-image: url("../../images/dark-wood.png"); }
@@ -692,9 +696,6 @@ object {
   display: -ms-flexbox;
   display: flex;
   width: 80%; }
-
-.widget-area {
-  width: 400px; }
 
 .main-navigation {
   display: -ms-flexbox;

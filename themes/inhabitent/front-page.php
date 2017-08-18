@@ -18,7 +18,9 @@ get_header(); ?>
         $terms = get_terms( 'product-type' );
         if ( !empty( $terms ) && !is_wp_error ( $terms )) : 
 				?>
-				<h2 class="shop-stuff-header">Shop Stuff </h2>
+				<div class="shop-stuff-header">
+				<h2>Shop Stuff</h2>
+				</div>
         <div class="shop-items-container">
             <?php foreach( $terms as $term ) : ?>
                 <div class="category-item">
