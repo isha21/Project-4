@@ -670,11 +670,13 @@ h3 {
   color: #d99054;
   text-transform: uppercase; }
 
-.widget-area {
+.site-content {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: right;
-      justify-content: right; }
+  width: 80%; }
+
+.widget-area {
+  width: 400px; }
 
 .main-navigation {
   display: -ms-flexbox;
@@ -685,8 +687,9 @@ h3 {
   text-transform: uppercase;
   font-size: 1rem;
   line-height: 1.75rem;
-  border-bottom: 1px solid #666; }
-  .main-navigation li {
-    margin-left: 10px; }
+  border-bottom: 1px solid #666;
+  background-image: url("../../images/inhabitent-logo-tent.svg");
+  background-size: li;
+    background-size-margin-left: 10px; }
   .main-navigation a {
     color: #248A83; }
