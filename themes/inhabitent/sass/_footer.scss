@@ -1,19 +1,37 @@
 
 #colophon{
 background-image: url('../../images/dark-wood.png');
+height:auto;
+
 .footer-container{
-  margin:2.5rem;
+  margin:3rem;
   flex-basis:25%;
   display: flex;
   justify-content: space-between;
+  color:$color__background-body;
+  line-height: $font__line-height-footer;
   }
     h3{
       color:$color_footer-brand;
       text-transform: uppercase;
+      margin-top:3rem;
     }
+      img{
+        width:60%;
+        margin-top:3rem;
+      }
     
 }
 
+
+.copyright {
+  margin-left:560px;
+  padding:3rem;
+  width:1120px;
+  text-transform: uppercase;
+  color:$color__background-body;
+
+}
 
   
  

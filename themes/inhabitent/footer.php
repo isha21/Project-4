@@ -12,7 +12,7 @@
 		
 			<footer id="colophon" class="site-footer" role="contentinfo">		
 				<div class="footer-container">
-					<div>
+					<div class="footer-items">
 						<h3>Contact Info</h3>
 						<p><i class="fa fa-envelope"></i><a href="mailto:info@inhabitent.com">info@inhabitent.com</a></p>
 						<p><i class="fa fa-phone"></i><a href="tel:7784567891">778-456-7891</a></p>
@@ -27,11 +27,11 @@
 					 <p>Sunday: Closed</p>
 					</div>
 					<div class="footer-logo">
-							<img src=" <?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text-dark.svg" alt="inhabitent-logo">
+							<img src=" <?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text.svg" alt="inhabitent-logo">
  	   	    </div>
 				</div>
-						 <div>
-							'COPYRIGHT © 2016 INHABITENT'
+						 <div class="copyright">
+							COPYRIGHT © 2016 INHABITENT
 						 </div>
 					</div><!-- .site-info -->
 			</footer><!-- #colophon -->
