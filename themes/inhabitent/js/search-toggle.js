@@ -1,7 +1,7 @@
 $(function() {
-  $('.search-submit').on('click', function(){
+  $('.icon-search').on('click', function(){
     event.preventDefault();
-    $('.icon-search').animate({ width: 'toggle'});
-    $('.icon-search').focus();
+    $('.search-field').toggle('slow');
+    $('.search-field').focus();
 });
-});
+})(jQuery);
