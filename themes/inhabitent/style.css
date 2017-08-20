@@ -772,6 +772,12 @@ ul {
     width: 60%;
     margin-top: 3rem; }
 
+.media-icon {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
 .copyright {
   margin-left: 560px;
   padding: 3rem;

@@ -16,9 +16,11 @@
 						<h3>Contact Info</h3>
 						<p><i class="fa fa-envelope"></i><a href="mailto:info@inhabitent.com">info@inhabitent.com</a></p>
 						<p><i class="fa fa-phone"></i><a href="tel:7784567891">778-456-7891</a></p>
+						<div class="media-icon">
 						<p><span><i class="fa fa-facebook-square"    aria-hidden="true"></i></span></p>
 						<p><span><i class="fa fa-twitter-square"     aria-hidden="true"></i></span></p>
-						<p><span><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
+				  	<p><span><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
+					</div>
 					</div>
 					<div>
 					 <h3>Business Hours</h3>
