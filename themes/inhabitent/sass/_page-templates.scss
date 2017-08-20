@@ -20,6 +20,8 @@
   grid-template-columns: repeat(4,1fr);
   grid-column-gap: 1rem;
   width:1120px;
+  margin-left:80px;
+  
 }
 
 .shop-stuff-header{
@@ -32,10 +34,19 @@
 .category-item{
   border:$border_solid;
   width:auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:1rem;
+  
     img{
       height: 70px;
       max-width:100%;
-      margin-left:107px;
-    
+      align-self: auto;
     }
+      a{
+        color:white;
+        margin-left:auto;
+        text-decoration: none;
+      }
 }

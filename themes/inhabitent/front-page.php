@@ -27,7 +27,7 @@ get_header(); ?>
                 <div class="category-item">
 								<img src="<?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug . '.svg';  ?>">
                     <p><?php echo $term->description; ?></p>
-                    <a class="category-item-link" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> stuff</a>
+                    <button><a class="category-item-link" href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?> stuff</a></button>
                 </div>
             <?php endforeach; ?>
         </div>
