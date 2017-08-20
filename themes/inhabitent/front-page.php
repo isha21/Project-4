@@ -37,6 +37,8 @@ get_header(); ?>
 				$args = array ('post_type' => 'post', order => 'DESC', 'posts_per_page' => 3, 'orderby' => 'date');
 				$journal_posts = get_posts($args);
 		  ?>
+		<h2 class="inhabitent-joural-header">Inhabitent Journal</h2>
+		<div class="journal">
 			<?php foreach ( $journal_posts as $post ) : setup_postdata($post); ?>
 				<div class ="journal-recent-block-item">
 					<div class ="journal-thumbnail-wrapper">
@@ -46,10 +48,10 @@ get_header(); ?>
 					</div>
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
 				</div>
-
+		
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
-	
+		</div>
 
 		</main><!-- #main -->
 		
