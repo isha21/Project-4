@@ -65,3 +65,24 @@
   font-size:2.4rem;
   margin-bottom:3.75rem;
 }
+
+//archive product
+
+.product-types{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+  
+  
+   li{
+     text-decoration:none;
+   }
+    a{
+      text-decoration:none;
+      text-transform:uppercase;
+    }
+}
+
+ul{
+  list-style-type: none;
+}

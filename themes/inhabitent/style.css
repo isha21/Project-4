@@ -735,6 +735,22 @@ object {
   font-size: 2.4rem;
   margin-bottom: 3.75rem; }
 
+.product-types {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center; }
+  .product-types li {
+    text-decoration: none; }
+  .product-types a {
+    text-decoration: none;
+    text-transform: uppercase; }
+
+ul {
+  list-style-type: none; }
+
 #colophon {
   background-image: url("../../images/dark-wood.png");
   height: auto; }
