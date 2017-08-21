@@ -628,7 +628,10 @@ button {
   background: #248A83;
   box-shadow: none;
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: white; }
+  button a {
+    color: white; }
 
 /*--------------------------------------------------------------
 # Media
@@ -738,7 +741,6 @@ object {
         -ms-grid-row-align: auto;
         align-self: auto; }
   .category-item a {
-    color: white;
     margin-left: auto;
     text-decoration: none; }
 
@@ -773,6 +775,33 @@ object {
 
 ul {
   list-style-type: none; }
+
+.journal-title {
+  background: #248A83;
+  box-shadow: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 1rem;
+  position: relative; }
+  .journal-title a {
+    color: #fff; }
+
+.entry-header {
+  position: relative; }
+
+.entry-content a {
+  color: #fff; }
+
+.entry-meta {
+  background: #248A83;
+  box-shadow: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 1rem; }
+  .entry-meta a {
+    color: #fff; }
 
 #colophon {
   background-image: url("../../images/dark-wood.png");

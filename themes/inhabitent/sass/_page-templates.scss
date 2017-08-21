@@ -45,10 +45,10 @@
       align-self: auto;
     }
       a{
-        color:white;
         margin-left:auto;
         text-decoration: none;
       }
+       
 }
 
 .journal{
@@ -87,4 +87,44 @@
 
 ul{
   list-style-type: none;
+}
+
+
+// journal
+
+
+
+.journal-title{
+  background:#248A83;
+	box-shadow:none;
+	font-size:$font_size;
+  text-transform:uppercase;
+  color:$color;
+  margin-top:1rem;
+  position:relative;
+    a{
+      color:$color;
+    }
+}
+
+.entry-header{
+  position:relative;
+}
+.entry-content{
+   a{
+     color:$color;
+   }
+}
+
+
+.entry-meta{
+  background:#248A83;
+	box-shadow:none;
+	font-size:$font_size;
+  text-transform:uppercase;
+  color:$color;
+  margin-top:1rem;
+    a{
+      color:$color;
+    }
 }
