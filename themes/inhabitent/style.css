@@ -629,6 +629,8 @@ button {
   box-shadow: none;
   font-size: 16px;
   text-transform: uppercase; }
+  button a {
+    color: #fff; }
 
 /*--------------------------------------------------------------
 # Media
@@ -739,7 +741,8 @@ object {
         align-self: auto; }
   .category-item a {
     margin-left: auto;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fff; }
 
 .journal {
   display: -ms-grid;
@@ -754,8 +757,13 @@ object {
   text-transform: uppercase;
   text-align: center;
   font-size: 2.4rem;
-  margin-bottom: 3.75rem;
-  font-family: Novecento Sans Web,sans-serif; }
+  margin-bottom: 3.75rem; }
+
+.adventure {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 3.75rem; }
 
 .product-types {
   display: -ms-flexbox;

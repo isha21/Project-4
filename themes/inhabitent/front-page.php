@@ -48,10 +48,20 @@ get_header(); ?>
 					</div>
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
 				</div>
-		
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
+				<h2 class="adventure">Latest Adventures</h2>
+				<!-- <div class="canoe">
+					<h1>Getting back to Nature in a Canoe<h1>
+			   </div>
+				<div class="beach">
+				<div>
+				<div class="mountain">
+				</div>
+				<div class="star">
+				</div> -->
 		</div>
+		
 
 		</main><!-- #main -->
 		

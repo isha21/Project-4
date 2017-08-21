@@ -63,4 +63,7 @@ button{
 	box-shadow:none;
 	font-size:$font_size;
 	text-transform:uppercase;
+		a{
+			color:$color;
+		}
 }

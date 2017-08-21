@@ -47,6 +47,7 @@
       a{
         margin-left:auto;
         text-decoration: none;
+        color:$color;
       }
        
 }
@@ -63,10 +64,20 @@
   text-transform: uppercase;
   text-align: center;
   font-size:2.4rem;
+  margin-bottom:3.75rem; 
+}
+
+.adventure{
+  text-transform: uppercase;
+  text-align: center;
+  font-size:2.4rem;
   margin-bottom:3.75rem;
-  font-family:Novecento Sans Web,sans-serif;
   
 }
+
+
+
+
 
 //archive product
 
@@ -128,3 +139,4 @@ ul{
       color:$color;
     }
 }
+
