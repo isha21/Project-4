@@ -628,10 +628,7 @@ button {
   background: #248A83;
   box-shadow: none;
   font-size: 16px;
-  text-transform: uppercase;
-  color: white; }
-  button a {
-    color: white; }
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Media
