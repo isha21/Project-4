@@ -7,7 +7,7 @@
  */
 
 ?>
-
+<div class="journal-container">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() ) : ?>
@@ -19,6 +19,7 @@
 		<div class="entry-meta">
 			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
 		</div><!-- .entry-meta -->
+</div>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

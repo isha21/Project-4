@@ -103,7 +103,9 @@ ul{
 
 // journal
 
-
+.journal-container{
+  position:relative;
+}
 
 .journal-title{
   background:#248A83;
@@ -112,7 +114,7 @@ ul{
   text-transform:uppercase;
   color:$color;
   margin-top:1rem;
-  position:relative;
+  // position:absolute;
     a{
       color:$color;
     }
@@ -139,4 +141,3 @@ ul{
       color:$color;
     }
 }
-
