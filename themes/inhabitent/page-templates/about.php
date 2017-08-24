@@ -18,7 +18,7 @@
          </header>
 
         <div class="container">
-           <div class="enry-content">
+           <div class="entry-content">
              <h2>Our Story</h2>  
              <?php echo CFS()->get( 'about_our_story' ); ?>
   
@@ -30,6 +30,7 @@
 
 
     </main><!--#main -->
-  </div><!--#primary -->    
-
-<?php get_footer(); ?>
+  <!--#primary -->    
+  </div>
+  <?php get_footer(); ?>
+  

@@ -844,6 +844,10 @@ ul {
   text-transform: uppercase;
   color: #fff; }
 
+.site-footer a {
+  text-decoration: none;
+  color: #fff; }
+
 .widget-area {
   -ms-flex: 1 3 20%;
       flex: 1 3 20%; }
