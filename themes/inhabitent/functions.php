@@ -105,3 +105,7 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+
+
+// javascript
+wp_enqueue_script('inhabitent-search-toggle',get_template_directory_uri(). 'build/js/search-toggle.min.js',array().'20130115',true);
