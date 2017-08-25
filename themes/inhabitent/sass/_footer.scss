@@ -24,8 +24,12 @@ height:auto;
 
 .media-icon{
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+    .fa{
+      margin:0.5rem;
+      font-size:1.25rem;
     }
+}
 
 .copyright {
   margin-left:560px;

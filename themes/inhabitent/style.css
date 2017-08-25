@@ -696,6 +696,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.main-navigation {
+  position: relative;
+  z-index: 9000; }
+
 .hero-image {
   background: url("../../images/home-hero.jpg");
   height: 100vh;
@@ -834,8 +838,11 @@ ul {
 .media-icon {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
+  .media-icon .fa {
+    margin: 0.5rem;
+    font-size: 1.25rem; }
 
 .copyright {
   margin-left: 560px;
