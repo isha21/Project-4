@@ -50,17 +50,31 @@ get_header(); ?>
 				</div>
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
-				<h2 class="adventure">Latest Adventures</h2>
-				<!-- <div class="canoe">
-					<h1>Getting back to Nature in a Canoe<h1>
-			   </div>
-				<div class="beach">
+			
+			
 				<div>
-				<div class="mountain">
+				<h2 class="adventure">Latest Adventures</h2>
 				</div>
+
+				<div class="adventure-container">
+				<div class="canoe">
+				<p>Getting back to Nature in a Canoe<p>
+				</div>
+
+				<div class="beach">
+				<p>A Night with Friends at the beach<p>
+				</div>	
+
+				<div class="mountain">
+				<p>Taking in the view at Big Mountain</p>
+				</div>
+
 				<div class="star">
-				</div> -->
-		</div>
+				<p>Star-Gazing at the Night Sky</p>
+				</div>
+				</div>
+				
+
 		
 
 		</main><!-- #main -->
