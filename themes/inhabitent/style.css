@@ -772,30 +772,35 @@ object {
 .adventure-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (2fr, 2, 1fr)[1];
-      grid-template-columns: repeat(1, 2fr, 2, 1fr); }
+  -ms-grid-columns: 50% 25% 25%;
+      grid-template-columns: 50% 25% 25%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  height: 700px;
+  grid-gap: 1rem; }
 
 .canoe {
   background: url(../../images/canoe-girl.jpg) center;
   background-size: cover;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  -ms-grid-row: span 2;
+      grid-row-start: span 2; }
 
 .beach {
   background: url(../../images/beach-bonfire.jpg) center;
   background-size: cover;
   height: 100%;
-  width: 50%; }
+  -ms-grid-column: span 2;
+      grid-column-start: span 2; }
 
 .mountain {
   background: url(../../images/mountain-hikers.jpg) center;
-  height: 100%;
-  width: 25%; }
+  height: 100%; }
 
 .star {
   background: url(../../images/night-sky.jpg) center;
-  height: 100%;
-  width: 25%; }
+  height: 100%; }
 
 .product-types {
   display: -ms-flexbox;

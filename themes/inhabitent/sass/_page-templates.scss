@@ -81,7 +81,10 @@ z-index:9000;
 
 .adventure-container{
   display:grid;
-  grid-template-columns: repeat(1,2fr,2,1fr);
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 50% 50%;
+  height:700px;
+  grid-gap:1rem;
 }
 
 .canoe{
@@ -89,25 +92,24 @@ z-index:9000;
   background-size:cover;
   height: 100%;
   width:100%;
+  grid-row-start:span 2;
 }
 
 .beach{
   background: url(../../images/beach-bonfire.jpg) center;
   background-size:cover;
   height:100%;
-  width:50%;
+  grid-column-start:span 2;
 }
 
 .mountain{
   background:url(../../images/mountain-hikers.jpg) center;
   height:100%;
-  width:25%;
 }
 
 .star{
   background:url(../../images/night-sky.jpg) center;
   height:100%;
-  width:25%;
 }
 
 
