@@ -58,7 +58,7 @@ get_header(); ?>
 
 				<div class="adventure-container">
 				<div class="canoe">
-				<p>Getting back to Nature in a Canoe<p>
+				<p>Getting back to Nature in a Canoe<p><span><button>Read More</button></span>
 				</div>
 
 				<div class="beach">
