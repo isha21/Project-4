@@ -51,7 +51,7 @@ get_header(); ?>
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
 			
-			
+			  
 				<div>
 				<h2 class="adventure">Latest Adventures</h2>
 				</div>
@@ -62,15 +62,20 @@ get_header(); ?>
 				</div>
 
 				<div class="beach">
-				<p>A Night with Friends at the beach<p>
-				</div>	
+				<p>A Night with Friends at the beach<p><span><button>Read More</button></span>
+				</div>
+				
 
 				<div class="mountain">
-				<p>Taking in the view at Big Mountain</p>
+				<p>Taking in the view at Big Mountain</p><span><button>Read More</button></span>
 				</div>
+				
+				
 
 				<div class="star">
-				<p>Star-Gazing at the Night Sky</p>
+				<p>Star-Gazing at the Night Sky</p><span><button>Read More</button></span>
+				</div>
+			
 				</div>
 				</div>
 				
