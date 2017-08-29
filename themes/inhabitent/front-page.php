@@ -46,6 +46,7 @@ get_header(); ?>
 							<?php the_post_thumbnail('medium'); ?>
 						<?php endif; ?>
 					</div>
+					
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
 				</div>
 					<?php endforeach; wp_reset_postdata(); ?>
