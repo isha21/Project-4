@@ -919,6 +919,9 @@ ul {
   -ms-flex: 1 3 20%;
       flex: 1 3 20%; }
 
+.logged-in .main-navigation {
+  top: 50px; }
+
 .main-navigation {
   display: -ms-flexbox;
   display: flex;
@@ -958,7 +961,7 @@ fieldset {
   border: none;
   transition: 500ms ease;
   opacity: 0; }
-  .search-field.slow {
+  .search-field.bar {
     opacity: 1;
     width: 250px; }
 

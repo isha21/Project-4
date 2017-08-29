@@ -1,4 +1,9 @@
 
+
+.logged-in .main-navigation {
+  top: 50px;
+}
+
 .main-navigation{
   display: flex;
   justify-content: space-between;
@@ -54,7 +59,7 @@ fieldset{
   border:none;
   transition: 500ms ease;
   opacity: 0;
-  &.slow{
+  &.bar{
     opacity: 1;
     width:250px;
   }  

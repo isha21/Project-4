@@ -34,20 +34,22 @@ get_header(); ?>
         <?php endif;?>
 
 		<?php 
-				$args = array ('post_type' => 'post', order => 'DESC', 'posts_per_page' => 3, 'orderby' => 'date');
+				$args = array ('post_type' => 'post', 'order' => 'DESC', 'posts_per_page' => 3, 'orderby' => 'date');
 				$journal_posts = get_posts($args);
 		  ?>
 		<h2 class="inhabitent-joural-header">Inhabitent Journal</h2>
 		<div class="journal">
 			<?php foreach ( $journal_posts as $post ) : setup_postdata($post); ?>
 				<div class ="journal-recent-block-item">
+					<div class="journal-text">
 					<div class ="journal-thumbnail-wrapper">
 						<?php if  ( has_post_thumbnail() ) : ?>
 							<?php the_post_thumbnail('medium'); ?>
 						<?php endif; ?>
 					</div>
+				</div>
 					<div class="entry-meta">
-						<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
+						<?php red_starter_posted_on(); ?> /<?php comments_number();?>/ <?php red_starter_posted_by(); ?>
 					</div><!-- .entry-meta -->
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
 				 <div class="read-entry">	<a href="<? echo get_post_permalink() ?>">Read Entry</a></div>

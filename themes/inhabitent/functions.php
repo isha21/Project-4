@@ -108,4 +108,4 @@ require get_template_directory() . '/inc/extras.php';
 
 
 // javascript
-wp_enqueue_script('inhabitent-search-toggle',get_template_directory_uri(). '/build/js/search-toggle.min.js',array('jquery').'20130115',true);
+//wp_enqueue_script('inhabitent-search-toggle',get_template_directory_uri(). '/build/js/search-toggle.min.js',array('jquery').'20130115',true);
