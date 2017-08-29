@@ -7,6 +7,10 @@
   font-size:1rem;
   line-height:1.75rem;
   border-bottom: 1px solid $color__border-abbr;
+  position: fixed;
+  width:100%;
+  top:0;
+  background:white;
  
       a{
         color:$color_menu-links;

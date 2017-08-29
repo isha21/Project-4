@@ -581,6 +581,7 @@ a {
 --------------------------------------------------------------*/
 /* Posts and pages */
 .site-content {
+  margin-top: 75px;
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
@@ -756,7 +757,8 @@ object {
   grid-column-gap: 1rem;
   width: 1120px;
   margin-left: 80px;
-  margin-right: 80px; }
+  margin-right: 80px;
+  position: relative; }
   .journal img {
     height: 244px;
     width: 100%; }
@@ -835,8 +837,17 @@ ul {
   .journal-title a {
     color: #fff; }
 
-.entry-header {
-  position: relative; }
+.blog .entry-header {
+  position: relative;
+  display: inline-block; }
+  .blog .entry-header h1 {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .blog .entry-header .entry-meta {
+    position: absolute;
+    bottom: 8px;
+    right: 0; }
 
 .entry-content a {
   color: #fff; }
@@ -905,7 +916,11 @@ ul {
   text-transform: uppercase;
   font-size: 1rem;
   line-height: 1.75rem;
-  border-bottom: 1px solid #666; }
+  border-bottom: 1px solid #666;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white; }
   .main-navigation a {
     color: #248A83; }
   .main-navigation .nav-logo img {

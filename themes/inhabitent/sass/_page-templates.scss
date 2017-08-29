@@ -57,6 +57,7 @@ z-index:9000;
        
 }
 
+
 .journal{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -64,9 +65,12 @@ z-index:9000;
   width:1120px;
   margin-left:80px;
   margin-right:80px;
+  position: relative;
+  
     img{
       height: 244px;
       width:100%;
+      
     }
 }
 
@@ -161,9 +165,23 @@ ul{
     }
 }
 
-.entry-header{
-  position:relative;
+.blog {
+  .entry-header {
+    position:relative;
+    display: inline-block;
+    h1 {
+      position: absolute;
+      top: 0;
+      left:0;
+    }
+    .entry-meta {
+      position: absolute;
+      bottom:8px;
+      right:0;
+    }
+  }
 }
+
 .entry-content{
    a{
      color:$color;
