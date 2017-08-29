@@ -814,7 +814,15 @@ object {
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
   height: 600px;
-  grid-gap: 1rem; }
+  grid-gap: 1rem;
+  letter-spacing: 2px; }
+  .adventure-container p {
+    color: #fff;
+    background-color: transparent;
+    display: inline;
+    font-size: 3rem; }
+  .adventure-container button {
+    padding: 21px; }
 
 .canoe {
   background: url(../../images/canoe-girl.jpg) center;
