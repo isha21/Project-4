@@ -769,6 +769,16 @@ object {
   font-size: 2.4rem;
   margin-bottom: 3.75rem; }
 
+.read-entry a {
+  border: 1px solid black;
+  background-color: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: black;
+  padding: 1rem; }
+
 .adventure {
   text-transform: uppercase;
   text-align: center;
@@ -833,7 +843,9 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   color: #fff;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  position: relative;
+  top: 0; }
   .journal-title a {
     color: #fff; }
 
@@ -893,7 +905,7 @@ ul {
     font-size: 1.25rem; }
 
 .copyright {
-  margin-left: 560px;
+  text-align: center;
   padding: 3rem;
   width: 1120px;
   text-transform: uppercase;

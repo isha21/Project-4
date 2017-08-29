@@ -50,7 +50,7 @@ get_header(); ?>
 						<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
 					</div><!-- .entry-meta -->
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
-					<button><a href="<? echo get_post_permalink() ?>"> Read More</a></button>
+				 <div class="read-entry">	<a href="<? echo get_post_permalink() ?>">Read Entry</a></div>
 				</div>
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
