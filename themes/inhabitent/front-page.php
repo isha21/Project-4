@@ -69,22 +69,26 @@ get_header(); ?>
 
 				<div class="adventure-container">
 				<div class="canoe">
-				<p>Getting back to Nature in a Canoe<p><span><button>Read More</button></span>
+				<h3>Getting back to Nature in a Canoe<h3>
+				<div><button>Read More</button></div>
 				</div>
 
 				<div class="beach">
-				<p>A Night with Friends at the beach<p><span><button>Read More</button></span>
+				<h3>A Night with Friends at the beach<h3>
+				<div><button>Read More</button></div>
 				</div>
 				
 
 				<div class="mountain">
-				<p>Taking in the view at Big Mountain</p><span><button>Read More</button></span>
+				<h3>Taking in the view at Big Mountain</h3>
+				<span><button>Read More</button></span>
 				</div>
 				
 				
 
 				<div class="star">
-				<p>Star-Gazing at the Night Sky</p><span><button>Read More</button></span>
+				<h3>Star-Gazing at the Night Sky</h3>
+				<div><button>Read More</button></div>
 				</div>
 			
 				</div>

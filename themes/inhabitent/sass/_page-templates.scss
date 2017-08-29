@@ -142,15 +142,26 @@
   grid-template-rows: 50% 50%;
   height:600px;
   grid-gap:1rem;
-  letter-spacing:2px;
-    p{
+  justify-content: center;
+  margin:50px;
+
+  
+    h3{
       color:$color;
       background-color:transparent;
-      display:inline;
-      font-size:3rem;
+      display:inline-block;
+      font-size:2.5rem;
+      line-height: 1.25;
+      letter-spacing: 1;
+    
+      
     }
       button{
-       padding:21px;
+       background:none;
+       border:1px solid #fff;
+       box-shadow:none;
+       color:white;
+       text-transform:upppercase;
       }
 }
 
@@ -174,11 +185,13 @@
 .mountain{
   background:url(../../images/mountain-hikers.jpg) center;
   height:100%;
+    
 }
 
 .star{
   background:url(../../images/night-sky.jpg) center;
   height:100%;
+  
 }
 
 

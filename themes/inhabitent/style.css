@@ -815,14 +815,22 @@ object {
       grid-template-rows: 50% 50%;
   height: 600px;
   grid-gap: 1rem;
-  letter-spacing: 2px; }
-  .adventure-container p {
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 50px; }
+  .adventure-container h3 {
     color: #fff;
     background-color: transparent;
-    display: inline;
-    font-size: 3rem; }
+    display: inline-block;
+    font-size: 2.5rem;
+    line-height: 1.25;
+    letter-spacing: 1; }
   .adventure-container button {
-    padding: 21px; }
+    background: none;
+    border: 1px solid #fff;
+    box-shadow: none;
+    color: white;
+    text-transform: upppercase; }
 
 .canoe {
   background: url(../../images/canoe-girl.jpg) center;
