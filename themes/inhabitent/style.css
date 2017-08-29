@@ -697,10 +697,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.main-navigation {
-  position: relative;
-  z-index: 9000; }
-
 .hero-image {
   background: url("../../images/home-hero.jpg");
   height: 100vh;
@@ -725,8 +721,10 @@ object {
 .shop-stuff-header {
   text-transform: uppercase;
   text-align: center;
-  font-size: 2.4rem;
-  margin-bottom: 3.75rem; }
+  font-size: 1.5rem;
+  margin-bottom: 3.75rem;
+  font-weight: 100;
+  font-family: novecento Sans Web, sans serif; }
 
 .category-item {
   border: 1px solid #e1e1e1;
@@ -768,6 +766,11 @@ object {
   text-align: center;
   font-size: 2.4rem;
   margin-bottom: 3.75rem; }
+
+.journal-box {
+  border: 1px solid black;
+  height: auto;
+  padding: 21px; }
 
 .read-entry a {
   border: 1px solid black;

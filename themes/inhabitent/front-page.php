@@ -42,20 +42,24 @@ get_header(); ?>
 			<?php foreach ( $journal_posts as $post ) : setup_postdata($post); ?>
 				<div class ="journal-recent-block-item">
 					<div class="journal-text">
-					<div class ="journal-thumbnail-wrapper">
+					<div class ="journal-thumbnail-wrapper">	
 						<?php if  ( has_post_thumbnail() ) : ?>
 							<?php the_post_thumbnail('medium'); ?>
 						<?php endif; ?>
 					</div>
 				</div>
+				<div class="journal-box">
 					<div class="entry-meta">
 						<?php red_starter_posted_on(); ?> /<?php comments_number();?>/ <?php red_starter_posted_by(); ?>
 					</div><!-- .entry-meta -->
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
-				 <div class="read-entry">	<a href="<? echo get_post_permalink() ?>">Read Entry</a></div>
-				</div>
+					
+				<div class="read-entry">	<a href="<? echo get_post_permalink() ?>">Read Entry</a></div>
+				</div>				
+			</div>
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
+			
 			
 			  
 				<div>
