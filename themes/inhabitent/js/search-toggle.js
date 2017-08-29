@@ -16,8 +16,13 @@
    
     $('.icon-search').on('click', function(){
     event.preventDefault();
+    // $('.search-field').animate({width: 'toggle'});
+    //     $('.search-field').focus();
+    //   });
+    //   $('.search-field').blur(function(){
+    //   $('.search-field').hide();
+    
 
-    $('.search-form').toggleClass('slow');
-    $('.search-field').focus();
+    $('.search-field').toggleClass('slow');
    });
   })(jQuery);

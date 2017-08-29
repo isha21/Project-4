@@ -36,6 +36,10 @@
    
 fieldset{
   border:none;
+  width: 100%;
+  a.icon-search {
+    display: initial ;
+  }
 }
 
 // header button{
@@ -46,13 +50,16 @@ fieldset{
 
 
 .search-field{
-  width:0;
+  width:0px;
   border:none;
+  transition: 500ms ease;
+  opacity: 0;
+  &.slow{
+    opacity: 1;
+    width:250px;
+  }  
 }
 
-.slow{
-  width:100px;
-}
 
 .search-submit{
   display:none;

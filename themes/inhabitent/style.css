@@ -936,14 +936,19 @@ ul {
     padding: 0 10px; }
 
 fieldset {
-  border: none; }
+  border: none;
+  width: 100%; }
+  fieldset a.icon-search {
+    display: initial; }
 
 .search-field {
-  width: 0;
-  border: none; }
-
-.slow {
-  width: 100px; }
+  width: 0px;
+  border: none;
+  transition: 500ms ease;
+  opacity: 0; }
+  .search-field.slow {
+    opacity: 1;
+    width: 250px; }
 
 .search-submit {
   display: none; }
