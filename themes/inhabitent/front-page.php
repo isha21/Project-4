@@ -46,8 +46,11 @@ get_header(); ?>
 							<?php the_post_thumbnail('medium'); ?>
 						<?php endif; ?>
 					</div>
-					
+					<div class="entry-meta">
+						<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
+					</div><!-- .entry-meta -->
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
+					<button><a href="<? echo get_post_permalink() ?>"> Read More</a></button>
 				</div>
 					<?php endforeach; wp_reset_postdata(); ?>
 				</div>
