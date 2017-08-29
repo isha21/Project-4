@@ -49,11 +49,12 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="journal-box">
-					<div class="entry-meta">
+					<div class="entry-journal-meta">
 						<?php red_starter_posted_on(); ?> /<?php comments_number();?>/ <?php red_starter_posted_by(); ?>
 					</div><!-- .entry-meta -->
+				<div class="journal-title-meta">
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
-					
+				</div>
 				<div class="read-entry">	<a href="<? echo get_post_permalink() ?>">Read Entry</a></div>
 				</div>				
 			</div>

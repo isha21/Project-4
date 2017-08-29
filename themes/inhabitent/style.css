@@ -768,19 +768,37 @@ object {
   margin-bottom: 3.75rem; }
 
 .journal-box {
-  border: 1px solid black;
+  border: 1px solid #e1e1e1;
   height: auto;
   padding: 21px; }
 
-.read-entry a {
-  border: 1px solid black;
-  background-color: transparent;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: black;
-  padding: 1rem; }
+.entry-journal-meta {
+  font-size: 0.75rem;
+  margin-bottom: 5px; }
+
+.journal-title-meta {
+  font-size: 1.3rem;
+  line-height: 1.25rem;
+  text-transform: uppercase; }
+  .journal-title-meta a {
+    color: #248A83;
+    text-decoration: none; }
+    .journal-title-meta a:hover {
+      color: black; }
+
+.read-entry {
+  letter-spacing: 1.5px;
+  background-color: white;
+  margin-top: 30px; }
+  .read-entry a {
+    border: 1px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: black;
+    padding: 11px; }
+    .read-entry a:hover {
+      background-color: #248A83; }
 
 .adventure {
   text-transform: uppercase;

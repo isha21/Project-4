@@ -80,26 +80,55 @@
 }
 
 .journal-box{
-  border:1px solid black;
+  border:$border_solid;
   height:auto;
   padding:21px;
 }
 
+.entry-journal-meta{
+  font-size:0.75rem;
+  margin-bottom:5px;
+    
+}
 
+.journal-title-meta{
+  font-size:1.3rem;  
+  line-height: 1.25rem;
+  text-transform:uppercase;
+     a{
+       color:#248A83;
+       text-decoration:none;
 
+       &:hover {
+        color:black;
+     }
+    }
+}
 
 .read-entry{
-  a{
+  letter-spacing:1.5px;
+  background-color:white;
+  margin-top:30px;
+    a{
     border:1px solid black;
-    background-color:transparent;
     text-decoration: none;
     text-transform:uppercase;
     font-size:1rem; 
-    line-height: 1.5rem;
     color:black;
-    padding:1rem;
+    padding:11px;
+
+    &:hover {
+      background-color:#248A83;
+      $color:color;
+
+    }
   }
 }
+      
+    
+  
+  
+
     
 
 .adventure{
@@ -208,10 +237,11 @@ ul{
    a{
      color:$color;
    }
+   
 }
 
 
-.entry-meta{
+.entry-meta {
   background:#248A83;
 	box-shadow:none;
 	font-size:$font_size;
@@ -220,5 +250,6 @@ ul{
   margin-top:1rem;
     a{
       color:$color;
-    }
+      }
+    
 }
