@@ -588,16 +588,16 @@ a {
   max-width: 100%; }
 
 .site-content {
-  margin: 75px auto 0 auto;
+  margin: 50.59px auto 0 auto;
   display: -ms-flexbox;
   display: flex;
   max-width: 1120px;
   min-height: 800px; }
 
 .content-area {
-  width: 80%;
-  -ms-flex: 3 1 80%;
-      flex: 3 1 80%; }
+  width: 70%;
+  -ms-flex: 3 1 70%;
+      flex: 3 1 70%; }
 
 .sticky {
   display: block; }
@@ -1020,10 +1020,11 @@ ul {
   transform: translate(-50%, -50%); }
 
 .widget-area {
-  width: 20%;
-  -ms-flex: 1 3 20%;
-      flex: 1 3 20%;
-  border-left: 1px solid #e1e1e1; }
+  width: 30%;
+  -ms-flex: 1 3 30%;
+      flex: 1 3 30%;
+  border-left: 1px solid #e1e1e1;
+  padding: 10px; }
   .widget-area h2 {
     text-transform: uppercase;
     font-weight: bold; }
