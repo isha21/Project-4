@@ -18,7 +18,7 @@ get_header(); ?>
 					
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				  
-
+       
 					$terms = get_terms( 'product-type' );
 					if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
 							echo '<ul class="product-types">';

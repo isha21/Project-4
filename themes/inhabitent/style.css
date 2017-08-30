@@ -1106,3 +1106,11 @@ fieldset {
 .post-type-archive .site-content {
   margin: 0 auto;
   width: 1120px; }
+
+.shop-description {
+  border: 1px solid #e1e1e1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-size: 12px; }

@@ -19,9 +19,9 @@ get_header(); ?>
 		<?php endif; ?>
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	<h3><?php echo CFS()->get( 'price' ); ?></h3>
 
-		
+	<h3><?php echo CFS()->get( 'price' ); ?></h3>
+			
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -39,7 +39,7 @@ get_header(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
-			<?php the_post_navigation(); ?>
+		
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
@@ -53,5 +53,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
