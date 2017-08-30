@@ -835,6 +835,8 @@ object {
     box-shadow: none;
     color: white;
     text-transform: upppercase; }
+    .adventure-container button:hover {
+      background-color: #248A83; }
 
 .canoe {
   background: url(../../images/canoe-girl.jpg) center;
