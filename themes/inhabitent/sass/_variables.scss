@@ -3,7 +3,7 @@
 $base__space-unit: 1.5rem;
 
 // Colors
-
+$color_brand-primary:#248A83;
 $color__background-body: #fff;
 $color__text-main: #404040;
 
@@ -15,15 +15,15 @@ $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__border-abbr: #666;
 $color_footer-brand:#d99054;
-$color_menu-links:#248A83;
+$color_menu-links:$color_brand-primary;
 $color_border-solid:#e1e1e1;
 $color-border-dashed:#c8c8c8;
 
 
 
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
+$color__link:$color_brand-primary;
+$color__link-visited: darken($color_brand-primary, 10%);
+$color__link-hover: darken($color_brand-primary, 10%);
 
 // Typography
 
@@ -35,9 +35,11 @@ $font__line-height-footer: 1.75;
 $font__line-height-pre: 1.6;
 $font_size:16px;
 $color:#fff;
+
 //border
 
 $border_solid:1px solid #e1e1e1;
+
 
 
 
