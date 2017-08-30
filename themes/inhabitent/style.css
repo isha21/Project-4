@@ -867,6 +867,10 @@ object {
   color: #fff;
   margin-left: 36px; }
 
+.page-header {
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 30px; }
+
 .product-types {
   display: -ms-flexbox;
   display: flex;
