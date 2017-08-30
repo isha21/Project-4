@@ -243,6 +243,7 @@ ul{
 }
 
 .blog {
+  
   .entry-header {
     position:relative;
     display: inline-block;
@@ -255,11 +256,13 @@ ul{
       position: absolute;
       bottom:8px;
       right:0;
+    
     }
   }
 }
 
 .entry-content{
+  max-width: 640px;
    a{
      color:$color;
    }
@@ -306,3 +309,17 @@ ul{
   text-align: center;
 }
 
+//find-us page
+.entry-header{
+  h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+}
+
+.entry-content{
+  h2{
+    text-transform: uppercase;  
+    font-weight:bold;
+  }
+}
