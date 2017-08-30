@@ -873,12 +873,17 @@ object {
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  line-height: 1.75rem; }
   .product-types li {
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 20 0 20 0; }
   .product-types a {
     text-decoration: none;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 20px;
+    color: #248A83;
+    font-weight: normal; }
 
 ul {
   list-style-type: none; }
