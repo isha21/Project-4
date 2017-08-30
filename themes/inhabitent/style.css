@@ -961,6 +961,11 @@ ul {
   text-transform: uppercase;
   font-weight: bold; }
 
+.single.single-product article {
+  display: -ms-flexbox;
+  display: flex;
+  width: 1120px; }
+
 #colophon {
   background-image: url("../../images/dark-wood.png");
   height: auto; }
@@ -1113,4 +1118,9 @@ fieldset {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  font-size: 12px; }
+  font-size: 12px;
+  -ms-flex-align: center;
+      align-items: center; }
+  .shop-description p {
+    color: white;
+    border-bottom: 2px dotted black; }

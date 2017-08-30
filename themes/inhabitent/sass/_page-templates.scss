@@ -325,6 +325,7 @@ ul{
   text-align: center;
 }
 
+
 //find-us page
 .entry-header{
   h1{
@@ -338,4 +339,14 @@ ul{
     text-transform: uppercase;  
     font-weight:bold;
   }
+}
+
+//single-product
+
+.single.single-product{
+  article{
+    display: flex;
+    width:1120px;
+  }
+  
 }

@@ -17,7 +17,7 @@
 <div class="shop-description">
 		<?php endif; ?>
 		<?php the_title( '<h2 class="entry-title">','</h2>' ); ?>
-		<p>.......</p>
+		<p>.....................</p>
 	  <span class="item-price"><?php echo CFS()->get('price'); ?></span>
 </div>
 </div>	
