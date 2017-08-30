@@ -4,14 +4,22 @@
 
 /* Posts and pages */
 
+.home .site-content, 
+.page-template-about .site-content {
+	width: 100%;
+	max-width: 100%;
+}
+
 .site-content{
-	margin-top: 75px;
+	// margin-top: 75px;
+	margin: 75px auto 0 auto;
   display: flex;
-  width:100vw;
+  max-width: 1120px;
   min-height: 800px;
 }
 
 .content-area{
+	width: 80%;
   flex: 3 1 80%;
 }
 

@@ -289,12 +289,20 @@ ul{
   column-span: 2;
   width:100%;
   justify-content: center;
+
+ .product-types{
+   margin:0 0 1em 0;
+   padding:0;
+ }
  
     li{
-      padding:20px;
       align-self: center;
     }
 
+
 }
 
+.page-title{
+  text-align: center;
+}
 

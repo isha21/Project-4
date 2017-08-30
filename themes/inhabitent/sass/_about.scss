@@ -1,35 +1,38 @@
+.page-template-about{
+  .custom-hero{
+    position:relative;
+  }
+
+  .entry-content{
+    width:1120px;
+    margin-left:auto;
+    margin-right:auto;
+   
+   h2{
+     font-size:2.5rem;
+     font-weight:bold;
+     text-align: center;
+     text-transform: uppercase;
+     margin-top:50px;
+   }
+     p{
+       font-size:1rem;
+       line-height: 1.75;
+       font-weight: light;
+      
+     }
+ }
+ 
+}
+
 .about-title{
-  height:100vh;
   text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  position:relative;
+  position: absolute;
   font-size:3rem;
   font-weight:bold;
   color:$color__background-screen;  
-    .entry-title{
-      align-items: center;
-      position:absolute;
-    }
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 
-.entry-content{
-   height:100vh;
-   width:1120px;
-   margin-left:auto;
-   margin-right:auto;
-  
-  h2{
-    font-size:2.5rem;
-    font-weight:bold;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top:50px;
-  }
-    p{
-      font-size:1rem;
-      line-height: 1.75;
-      font-weight: light;
-     
-    }
-}

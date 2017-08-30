@@ -582,14 +582,20 @@ a {
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
+.home .site-content,
+.page-template-about .site-content {
+  width: 100%;
+  max-width: 100%; }
+
 .site-content {
-  margin-top: 75px;
+  margin: 75px auto 0 auto;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  max-width: 1120px;
   min-height: 800px; }
 
 .content-area {
+  width: 80%;
   -ms-flex: 3 1 80%;
       flex: 3 1 80%; }
 
@@ -923,11 +929,16 @@ ul {
   width: 100%;
   -ms-flex-pack: center;
       justify-content: center; }
+  .page-header .product-types {
+    margin: 0 0 1em 0;
+    padding: 0; }
   .page-header li {
-    padding: 20px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center; }
+
+.page-title {
+  text-align: center; }
 
 #colophon {
   background-image: url("../../images/dark-wood.png");
@@ -970,39 +981,36 @@ ul {
   text-decoration: none;
   color: #fff; }
 
-.about-title {
-  height: 100vh;
-  text-transform: uppercase;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  position: relative;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #f1f1f1; }
-  .about-title .entry-title {
-    -ms-flex-align: center;
-        align-items: center;
-    position: absolute; }
+.page-template-about .custom-hero {
+  position: relative; }
 
-.entry-content {
-  height: 100vh;
+.page-template-about .entry-content {
   width: 1120px;
   margin-left: auto;
   margin-right: auto; }
-  .entry-content h2 {
+  .page-template-about .entry-content h2 {
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     margin-top: 50px; }
-  .entry-content p {
+  .page-template-about .entry-content p {
     font-size: 1rem;
     line-height: 1.75;
     font-weight: light; }
 
+.about-title {
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f1f1f1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .widget-area {
+  width: 20%;
   -ms-flex: 1 3 20%;
       flex: 1 3 20%; }
 
