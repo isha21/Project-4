@@ -192,6 +192,12 @@
   
 }
 
+.adventures{
+  background:$color_brand-primary;
+  padding:1rem;
+  color:$color;
+  margin-left:36px;
+}
 
 
 //archive product
@@ -268,10 +274,27 @@ ul{
   text-transform:uppercase;
   color:$color;
   margin-top:1rem;
-    a{
-      color:$color;
-      }
-    
+  
+}
+
+
+
+//archive-product
+
+.page-header{
+  text-transform:uppercase;
+  font-size:1.2rem;
+  font-weight: bold;
+  display: grid;
+  column-span: 2;
+  width:100%;
+  justify-content: center;
+ 
+    li{
+      padding:20px;
+      align-self: center;
+    }
+
 }
 
 

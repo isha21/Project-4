@@ -101,6 +101,6 @@ get_header(); ?>
 		
 	
 	</div><!-- #primary -->
-
+ <button class="adventures">More Adventures</button>
 
 <?php get_footer(); ?>

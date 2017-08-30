@@ -853,6 +853,12 @@ object {
   background: url(../../images/night-sky.jpg) center;
   height: 100%; }
 
+.adventures {
+  background: #248A83;
+  padding: 1rem;
+  color: #fff;
+  margin-left: 36px; }
+
 .product-types {
   display: -ms-flexbox;
   display: flex;
@@ -906,8 +912,22 @@ ul {
   text-transform: uppercase;
   color: #fff;
   margin-top: 1rem; }
-  .entry-meta a {
-    color: #fff; }
+
+.page-header {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: -ms-grid;
+  display: grid;
+  column-span: 2;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .page-header li {
+    padding: 20px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center; }
 
 #colophon {
   background-image: url("../../images/dark-wood.png");
