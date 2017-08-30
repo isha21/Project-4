@@ -50,7 +50,7 @@ get_header(); ?>
 				</div>
 				<div class="journal-box">
 					<div class="entry-journal-meta">
-						<?php red_starter_posted_on(); ?> /<?php comments_number();?>/ <?php red_starter_posted_by(); ?>
+						<?php red_starter_posted_on(); ?> /<?php comments_number();?>
 					</div><!-- .entry-meta -->
 				<div class="journal-title-meta">
 					<a href="<? echo get_post_permalink() ?>"> <?php the_title(); ?> </a>
